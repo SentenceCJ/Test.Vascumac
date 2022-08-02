@@ -208,6 +208,60 @@ hr { border-top: 4px solid #CCC; }
 	}
 }
 
+.tm-img-aorte-container {
+	width: 250px;
+	height: 500px;
+	background: url(../images/anevrisme-aorte-abdominal2.0.jpg) no-repeat center;
+	/* background-size: cover; */
+	margin-right: 0;
+	margin-left: auto;
+}
+
+@media (max-width: 1600px) {
+	.tm-col-aorte-l { width: calc(100% - 250px); }
+
+	.tm-img-aorte-container {
+		width: 200px;
+		height: 400px;
+	}
+}
+
+.tm-img-avc-container {
+	width: 250px;
+	height: 500px;
+	background: url(../images/avc.jpg) no-repeat center;
+	background-size: cover;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+@media (max-width: 1600px) {
+	.tm-col-home-l { width: calc(100% - 250px); }
+
+	.tm-img-avc-container {
+		width: 200px;
+		height: 400px;
+	}
+}
+
+.tm-img-papier-container {
+	width: 250px;
+	height: 500px;
+	background: url(../images/papier.jpg) no-repeat center;
+	background-size: cover;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+@media (max-width: 1600px) {
+	.tm-col-home-l { width: calc(100% - 250px); }
+
+	.tm-img-avc-container {
+		width: 200px;
+		height: 400px;
+	}
+}
+
 .tm-icon-container {
 	border: 1px solid #CCC;
     width: 122px;
@@ -676,6 +730,33 @@ select:not([multiple]) {
 		background-image: url('../images/varices.jpg');
 		background-size: contain;		
 	}
+
+	.tm-img-avc-container {
+		width: 100%;
+		height: 0;
+		padding-top: 133.28%;
+		background-image: url('../images/avc.jpg');
+		background-size: contain;		
+	}
+
+	.tm-img-papier-container {
+		width: 100%;
+		height: 0;
+		padding-top: 133.28%;
+		background-image: url('../images/papier.jpg');
+		background-size: contain;		
+	}
+
+	.tm-img-aorte-container {
+		width: 100%;
+		height: 0;
+		padding-top: 133.28%;
+		background-image: url('../images/anevrisme-aorte-abdominal.jpg');
+		background-size: contain;		
+	}
+	
+
+	
 }
 
 /* Hide the leftside bar */
